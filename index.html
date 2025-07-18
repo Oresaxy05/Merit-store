@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merit's Store - Premium Skincare Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Merit's Store</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="search-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <button class="cart-btn" aria-label="Shopping Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z"></path>
+                        <path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z"></path>
+                        <path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="profile-btn" aria-label="User Profile">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </button>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Carousel Section -->
+    <section id="home" class="hero-carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2>Premium Skincare Collection</h2>
+                        <p>Discover trusted brands like Nivea, CeraVe, and Simple for all your skincare needs</p>
+                        <button class="cta-button">Shop Now</button>
+                    </div>
+                    <div class="slide-image">
+                        <img src="https://img.nivea.com/-/media/nivea/local/me/campaigns/2019-nourishing/teaser-blueheaven-cdp-teaser-3080x806.jpg?rx=1433&ry=0&rw=1452&rh=806&hash=9614A014DB0BA21E95D3EF0D79DD12C7" alt="Skincare Collection"/>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2>Nivea - Trusted Care</h2>
+                        <p>Experience the gentle care and proven effectiveness of Nivea's skincare range</p>
+                        <button class="cta-button">Explore Nivea</button>
+                    </div>
+                    <div class="slide-image">
+                        <img src="https://images.unsplash.com/photo-1632221522690-6a0c04bf6f85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bml2ZWF8ZW58MHx8MHx8fDA%3D" alt="Nivea Products" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2>CeraVe - Developed with Dermatologists</h2>
+                        <p>Restore and maintain your skin's natural barrier with CeraVe's ceramide-rich formulas</p>
+                        <button class="cta-button">Shop CeraVe</button>
+                    </div>
+                    <div class="slide-image">
+                        <img src="https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products-v3/daily-moisturizing-lotion/700x875/cerave_daily_moisturizing_lotion_12oz_front-700x875-v2.jpg?rev=c1f482b619984b46bd02512590f52dfc&w=900&hash=1CE688C6849CD2E3CA7FEFB78E0AE598" alt="CeraVe Products" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2>Simple - Kind to Skin</h2>
+                        <p>Pure, gentle skincare with no unnecessary ingredients - perfect for sensitive skin</p>
+                        <button class="cta-button">Discover Simple</button>
+                    </div>
+                    <div class="slide-image">
+                        <img src="https://www.simpleskincare.in/cdn/shop/files/Kind-to-Skin-Replenishing-Combo.jpg?v=1721644261" alt="Simple Products" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-slide">
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h2>Skin Aqua - Japanese UV Innovation</h2>
+                        <p>Advanced Japanese sunscreen technology with superior UV protection and skin-friendly formulas</p>
+                        <button class="cta-button">Explore Skin Aqua</button>
+                    </div>
+                    <div class="slide-image">
+                        <img src="https://i0.wp.com/live.staticflickr.com/65535/51354718969_095c8c0955_c.jpg?resize=800%2C800&ssl=1" alt="Skin Aqua Products" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Carousel Navigation -->
+        <button class="carousel-btn prev-btn" aria-label="Previous slide">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15,18 9,12 15,6"></polyline>
+            </svg>
+        </button>
+        <button class="carousel-btn next-btn" aria-label="Next slide">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9,18 15,12 9,6"></polyline>
+            </svg>
+        </button>
+        
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+            <button class="indicator active" data-slide="0"></button>
+            <button class="indicator" data-slide="1"></button>
+            <button class="indicator" data-slide="2"></button>
+            <button class="indicator" data-slide="3"></button>
+            <button class="indicator" data-slide="4"></button>
+        </div>
+    </section>
+
+          <!-- Products Section -->
+           <section id="products" class="products-section">
+            <div class="container">
+                <h2 class="section-title">Our Premium Brands</h2>
+            
+            <!-- Nivea Products -->
+             <div class="brand-section">
+                <div class="brand-header">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Nivea_Logo.png" alt="Nivea" class="brand-logo">
+                    <h3 class="brand-title">NIVEA</h3>
+                    <p class="brand-description">Trusted skincare with over 100 years of expertise</p>
+                </div>
+                <div class="products-grid" id="nivea-products">
+                    <!-- Nivea products will be loaded here -->
+                </div>
+            </div>
+            
+            <!-- CeraVe Products -->
+             <div class="brand-section">
+                <div class="brand-header">
+                    <img src="https://www.gulfcoastdermatology.com/wp-content/uploads/2018/10/cerave.png" alt="CeraVe" class="brand-logo">
+                    <h3 class="brand-title">CeraVe</h3>
+                    <p class="brand-description">Dermatologist-developed skincare with essential ceramides</p>
+                </div>
+                <div class="products-grid" id="cerave-products">
+                    <!-- CeraVe products will be loaded here -->
+                </div>
+            </div>
+            
+            <!-- Simple Products -->
+            <div class="brand-section">
+                <div class="brand-header">
+                    <img src="https://assets.unileversolutions.com/v1/1620325.jpg" alt="Simple" class="brand-logo">
+                    <h3 class="brand-title">Simple</h3>
+                    <p class="brand-description">Kind to skin with no unnecessary ingredients</p>
+                </div>
+                <div class="products-grid" id="simple-products">
+                    <!-- Simple products will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Skin Aqua Products -->
+             <div class="brand-section">
+                <div class="brand-header">
+                    <img src="https://everythingbeautygh.com/wp-content/uploads/skinaqua.png" alt="Skin Aqua" class="brand-logo">
+                    <h3 class="brand-title">Skin Aqua</h3>
+                    <p class="brand-description">Japanese UV protection technology for superior sun care</p>
+                </div>
+                <div class="products-grid" id="skinaqua-products">
+                    <!-- Skin Aqua products will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose Merit Store?</h2>
+                    <p>Merit Store is your trusted destination for premium skincare products. We carefully curate the best brands to bring you effective, gentle, and reliable skincare solutions for every skin type and concern.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-icon">✨</div>
+                            <h3>Curated Selection</h3>
+                            <p>Only the most trusted and effective brands</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🚚</div>
+                            <h3>Fast Delivery</h3>
+                            <p>Quick and secure shipping to your doorstep</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">💯</div>
+                            <h3>Authentic Products</h3>
+                            <p>100% genuine products with quality guarantee</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://i0.wp.com/live.staticflickr.com/65535/51354205548_f62941d37c_c.jpg?resize=800%2C800&ssl=1" alt="Skincare products" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for skincare tips, exclusive offers, and new product launches.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>hello@meritstore.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+234 90 6130 5967</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h3>Address</h3>
+                        <p>25 Femi Orebote<br>Okota, Lagos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" id="contact-subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Merit Store</h3>
+                    <p>Your trusted destination for premium skincare products from the world's best brands.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Care</h4>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📧 hello@meritstore.com</p>
+                    <p>📞 +234 90 6130 5967</p>
+                    <p>📍 25 Femi Orebote, Lagos</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Merit Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+     <!-- Search Modal -->
+    <div id="search-modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Search Products</h3>
+            <button class="close-modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search for products..." autofocus>
+                <button id="search-submit" class="btn-primary">Search</button>
+            </div>
+            <div id="search-results" class="search-results">
+                <p class="search-placeholder">Start typing to search for products...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Shopping Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Shopping Cart</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="cart-items"></div>
+                <div class="cart-total">
+                    <strong>Total: $<span id="cart-total">0.00</span></strong>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" id="clear-cart">Clear Cart</button>
+                <button class="btn-primary" id="checkout">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-product-name"></h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="product-modal-content">
+                    <img id="modal-product-image" src="" alt="">
+                    <div class="product-modal-info">
+                        <p id="modal-product-description"></p>
+                        <div class="product-modal-price">$<span id="modal-product-price"></span></div>
+                        <div class="quantity-selector">
+                            <label for="quantity">Quantity:</label>
+                            <div class="quantity-controls">
+                                <button class="quantity-btn" data-action="decrease">-</button>
+                                <input type="number" id="quantity" value="1" min="1" max="10">
+                                <button class="quantity-btn" data-action="increase">+</button>
+                            </div>
+                        </div>
+                        <button class="btn-primary add-to-cart-modal">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Profile Modal -->
+    <div id="profile-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="profile-modal-title">Sign In</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <!-- Login Form -->
+                <form id="login-form" class="auth-form">
+                    <div class="form-group">
+                        <label for="login-email">Email</label>
+                        <input type="email" id="login-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" required>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Sign In</button>
+                    <p class="auth-switch">Don't have an account? <a href="#" id="show-signup">Sign up</a></p>
+                </form>
+
+                <!-- Sign Up Form -->
+                <form id="signup-form" class="auth-form" style="display: none;">
+                    <div class="form-group">
+                        <label for="signup-name">Full Name</label>
+                        <input type="text" id="signup-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email</label>
+                        <input type="email" id="signup-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" required minlength="6">
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-confirm">Confirm Password</label>
+                        <input type="password" id="signup-confirm" required>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms-agree" required>
+                        <label for="terms-agree">I agree to the Terms of Service and Privacy Policy</label>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Create Account</button>
+                    <p class="auth-switch">Already have an account? <a href="#" id="show-login">Sign in</a></p>
+                </form>
+
+                <!-- Profile Dashboard -->
+                <div id="profile-dashboard" style="display: none;">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <span id="profile-initials">JD</span>
+                        </div>
+                        <div class="profile-info">
+                            <h3 id="profile-name">John Doe</h3>
+                            <p id="profile-email">john@example.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-sections">
+                        <div class="profile-section">
+                            <h4>Account Settings</h4>
+                            <button class="profile-btn-secondary" id="edit-profile">Edit Profile</button>
+                            <button class="profile-btn-secondary" id="change-password">Change Password</button>
+                        </div>
+                        
+                        <div class="profile-section">
+                            <h4>Order History</h4>
+                            <div id="order-history">
+                                <p class="no-orders">No orders yet. Start shopping to see your order history!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="profile-section">
+                            <h4>Preferences</h4>
+                            <div class="preference-item">
+                                <input type="checkbox" id="email-notifications" checked>
+                                <label for="email-notifications">Email notifications</label>
+                            </div>
+                            <div class="preference-item">
+                                <input type="checkbox" id="marketing-emails">
+                                <label for="marketing-emails">Marketing emails</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-secondary full-width" id="logout-btn">Sign Out</button>
+                </div>
+
+                <!-- Edit Profile Form -->
+                <form id="edit-profile-form" class="auth-form" style="display: none;">
+                    <div class="form-group">
+                        <label for="edit-name">Full Name</label>
+                        <input type="text" id="edit-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-email">Email</label>
+                        <input type="email" id="edit-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-phone">Phone (Optional)</label>
+                        <input type="tel" id="edit-phone">
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn-secondary" id="cancel-edit">Cancel</button>
+                        <button type="submit" class="btn-primary">Save Changes</button>
+                    </div>
+                </form>
+
+                <!-- Change Password Form -->
+                <form id="change-password-form" class="auth-form" style="display: none;">
+                    <div class="form-group">
+                        <label for="current-password">Current Password</label>
+                        <input type="password" id="current-password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="new-password">New Password</label>
+                        <input type="password" id="new-password" required minlength="6">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-new-password">Confirm New Password</label>
+                        <input type="password" id="confirm-new-password" required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn-secondary" id="cancel-password">Cancel</button>
+                        <button type="submit" class="btn-primary">Update Password</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
