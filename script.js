@@ -5,31 +5,31 @@ const productsByBrand = {
             id: 1,
             name: "ALOE & HYDRATION BODY LOTION",
             description: "Gently hydrates and soothes dry skin with aloe vera. Fast-absorbing and perfect for daily use.",
-            price: 12.90,
-            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/e/8/6/1b882381fb354b098df8a38de5706b1f-web_1010x1180_transparent_png.webp?mw=259&hash=0795A25D8177160908884114C6A473D7",
+            price: 5000,
+            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/e/8/6/1b882381fb354b098df8a38de5706b1f-web_1010x1180_transparent_png.webp?mw=768&hash=C9E32F00317D9B030B3157BF32522C38",
             brand: "nivea"
         },
         {
             id: 2,
             name: "SHEA SMOOTH BODY MILK",
             description: "Deeply moisturizes and softens skin with shea butter. Lightweight, smooth, and perfect for daily nourishment.",
-            price: 8.99,
-            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/a/5/7/212435-web_1010x1180_transparent_png.webp?mw=259&hash=F0762EF9106C702F13AFF63751C266DC",
+            price: 7800,
+            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/a/5/7/212435-web_1010x1180_transparent_png.webp?mw=768&hash=275B07C67FCEDF56B23D92525FE63EEF",
             brand: "nivea"
         },
         {
             id: 3,
             name: "NIVEA PERFECT & RADIANT EVEN TONE DAY CREAM SPF15",
             description: "Evens skin tone, hydrates, and protects against sun damage with SPF15 for a natural, radiant glow.",
-            price: 15.99,
-            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/b/9/1/858326a77f224d6fbfc26631ac27992b-screen.webp?mw=259&hash=905573E9565F19B9169F164299D7DA97",
+            price: 7200,
+            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/8/d/f/a6199fb0be184230b1183227fb15edd1-screen.webp?mw=1600&hash=3DE7E04040DA6350DA61CE9290DA0277",
             brand: "nivea"
         },
         {
            id: 4,
             name: "ANTI DARK MARKS SERUM",
             description: "Targets dark spots and evens skin tone for a clearer, brighter complexion. Fast-absorbing and gentle on skin.",
-            price: 15.99,
+            price: 8500,
             image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/5/1/0/7b18a679d3c743efa860b511f2d15cbe-web_1010x1180_transparent_png.webp?mw=259&hash=F0625B9ED2A15CA6BDDBD3F57C129C4E",
             brand: "nivea" 
         },
@@ -37,7 +37,7 @@ const productsByBrand = {
            id: 5,
             name: "NIVEA EVENTONE LIGHT MOISTURIZER",
             description: "Lightweight moisturizer that hydrates and brightens skin, reducing the appearance of dark spots.",
-            price: 15.99,
+            price: 7100,
             image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/0/f/0/8756637050c84c5fbaa7fb003aa082e9-web_1010x1180_transparent_png.webp?mw=259&hash=160EF0CCB05D4E6959B853459FFAC623",
             brand: "nivea" 
         },
@@ -45,7 +45,7 @@ const productsByBrand = {
            id: 6,
             name: "NIVEA PREFECT & RADIANT 3 IN 1 CLEANSER",
             description: "Gentle cleanser that removes impurities, brightens skin, and prepares it for further skincare steps.",
-            price: 15.99,
+            price: 8300,
             image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/b/2/f/62b2a8c34bbe4717a1c199c54f701a5d-screen.webp?mw=259&hash=F6510F22EA21575B12ABE5D30CA2F739",
             brand: "nivea" 
         }
@@ -55,7 +55,7 @@ const productsByBrand = {
             id: 7,
             name: "CeraVe SMOOTHING CLEANSER",
             description: "Exfoliating cleanser with salicylic acid to smooth rough skin and prevent breakouts. Non-irritating formula.",
-            price: 16.99,
+            price: 5600,
             image: "https://www.cerave.co.uk/-/media/project/loreal/brand-sites/cerave/emea/uk/products/sa-smoothing-cleanser-236ml/sa-smoothing-cleanser-473ml-2-lg.jpg?rev=-1?w=130&hash=46E36ADEE5D13444F7BFD197CAE67A4A",
             brand: "cerave"
         },
@@ -63,7 +63,7 @@ const productsByBrand = {
             id: 8,
             name: "CeraVe FACIAL MOISTURIZING LOTION",
             description: "Lightweight moisturizer with hyaluronic acid and niacinamide to hydrate and restore the skin barrier.",
-            price: 18.99,
+            price: 8500,
             image: "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/2025/resized-packshots/700x875/pm-50-facial-moisturizing-lotion-clp-resize-700x785-v1.jpg?rev=c2cd70fac8fa41ea99bb3e84fb0113bb&w=500&hash=01C9FA43AF135D3BA84B14200C7F6E25",
             brand: "cerave"
         },
@@ -71,7 +71,7 @@ const productsByBrand = {
             id: 9,
             name: "CeraVe SKIN RENEWING NIGHT CREAM",
             description: "Intensive night cream with peptides and niacinamide to restore skin overnight and improve texture.",
-            price: 24.99,
+            price: 5500,
             image: "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/2025/packshots/700x875/night-cream-resize-700x875-v1.jpg?rev=c048d9fc3a9b411c8b0487a4db4884a6",
             brand: "cerave"
         },
@@ -79,7 +79,7 @@ const productsByBrand = {
             id: 10,
             name: "CeraVe CREAM MOISTURIZING",
             description: "Intensive moisturizing cream with ceramides and hyaluronic acid for dry to very dry skin. Non-greasy and fast-absorbing.",
-            price: 24.99,
+            price: 6500,
             image: "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products-v4/moisturizing-cream/cerave_moisturizing_cream_16oz_jar_front-700x875-v4.jpg?rev=db6e3c22250e4928bc749dd2c207de5b&w=500&hash=D85F888749CB3F9C74FBBBF73EFA6D40",
             brand: "cerave"
         },
@@ -87,7 +87,7 @@ const productsByBrand = {
             id: 11,
             name: "CeraVe MOISTURIZING LOTION",
             description: "Lightweight lotion with essential ceramides and hyaluronic acid for all-day hydration. Suitable for face and body.",
-            price: 24.99,
+            price: 7500,
             image: "https://www.cerave.co.uk/-/media/project/loreal/brand-sites/cerave/emea/uk/products/moisturising-lotion/moisturising-lotion-236ml/moisturising-lotion-236ml-1-lg.jpg?rev=2e319b57342041fc887e84b06e0053bb?w=130&hash=09391AFBC686B65B0483FAB17255D899",
             brand: "cerave"
         },
@@ -95,7 +95,7 @@ const productsByBrand = {
             id: 12,
             name: "CeraVe FACE MOISTURISER SPF 30 ",
             description: "Daily moisturizer with SPF 30 to protect against UV damage while hydrating and restoring the skin barrier.",
-            price: 24.99,
+            price: 3500,
             image: "http://t0.gstatic.com/images?q=tbn:ANd9GcQcmWlljYNr30qtCy_TAtIAAJnKtrIsoZi_RyQa5cVXmK2XOT_Z",
             brand: "cerave"
         }
@@ -105,7 +105,7 @@ const productsByBrand = {
             id: 13,
             name: "SIMPLE SMOOTHING FACIAL SCRUB",
             description: "Gently exfoliates to remove dead skin cells, leaving skin smooth, clean, and refreshed — with no harsh chemicals.",
-            price: 6.99,
+            price: 4700,
             image: "https://assets.unileversolutions.com/v1/1880161.png?im=Resize,width=1200,height=12000",
             brand: "simple"
         },
@@ -113,7 +113,7 @@ const productsByBrand = {
             id: 14,
             name: "SIMPLE REPLENISHING MOISTURIZER",
             description: "Deeply hydrates and nourishes skin for 12 hours. Kind to sensitive skin with no artificial perfumes or colors.",
-            price: 9.99,
+            price: 6000,
             image: "https://assets.unileversolutions.com/v1/55673823.png?im=Resize,width=351,height=351",
             brand: "simple"
         },
@@ -121,7 +121,7 @@ const productsByBrand = {
             id: 15,
             name: "SIMPLE FACIAL TONER",
             description: "Refreshes and tones skin while helping to balance pH. Alcohol-free and gentle on sensitive skin.",
-            price: 9.99,
+            price: 5200,
             image: "https://assets.unileversolutions.com/v1/76574235.png?im=Resize,width=351,height=351",
             brand: "simple"
         },
@@ -129,7 +129,7 @@ const productsByBrand = {
             id: 16,
             name: "SIMPLE FACIAL WASH",
             description: "Cleanses thoroughly without drying. Perfect for removing dirt and oil while keeping skin soft and smooth.",
-            price: 9.99,
+            price: 6800,
             image: "https://assets.unileversolutions.com/v1/56499587.png?im=Resize,width=351,height=351",
             brand: "simple"
         },
@@ -138,8 +138,8 @@ const productsByBrand = {
         {
             id: 17,
             name: "Skin Aqua UV Super Moisture Milk SPF50+",
-            description: "Lightweight, hydrating milk with hyaluronic acid for daily sun protection.",
-            price: 14.99,
+            description: "Lightweight sunscreen milk with SPF50+ that hydrates and protects skin from UV rays. Suitable for daily use and leaves no white cast.",
+            price: 7000,
             image: "https://rhemabeautyshop.com/wp-content/uploads/2023/04/AQUA-140G.webp",
             brand: "skinaqua"
         },
@@ -147,7 +147,7 @@ const productsByBrand = {
             id: 18,
             name: "Skin Aqua UV Super Moisture Gel SPF50+",
             description: "Water-based UV gel with amino acids that provides invisible protection without white cast.",
-            price: 16.99,
+            price: 6500,
             image: "https://rhemabeautyshop.com/wp-content/uploads/2023/04/skin-aqua-uv-super-moisture-gel-spf50.jpg",
             brand: "skinaqua"
         },
@@ -155,7 +155,7 @@ const productsByBrand = {
             id: 19,
             name: "Skin Aqua Tone Up UV Essence SPF50+",
             description: "Color-correcting sunscreen essence that brightens skin tone while providing UV protection.",
-            price: 18.99,
+            price: 5400,
             image: "https://cdn.shopify.com/s/files/1/0695/5712/5440/files/Rohto-Skin-Aqua-Sunscreen-Super-Moisture-UV-Essence-SPF50_-80g-2-2024-03-18T07_55_10.565Z.jpg?v=1743435209",
             brand: "skinaqua"
         },
@@ -191,7 +191,9 @@ const cartCount = document.querySelector('.cart-count');
 const cartModal = document.getElementById('cart-modal');
 const productModal = document.getElementById('product-modal');
 const profileModal = document.getElementById('profile-modal');
+const searchModal = document.getElementById('search-modal');
 const profileBtn = document.querySelector('.profile-btn');
+const searchBtn = document.querySelector('.search-btn');
 const cartItems = document.getElementById('cart-items');
 const cartTotal = document.getElementById('cart-total');
 
@@ -215,7 +217,7 @@ function renderProductsByBrand() {
                     <div class="product-info">
                         <h3 class="product-name">${product.name}</h3>
                         <p class="product-description">${product.description}</p>
-                        <div class="product-price">$${product.price.toFixed(2)}</div>
+                        <div class="product-price">₦${product.price.toFixed(2)}</div>
                         <button class="add-to-cart" data-product-id="${product.id}">Add to Cart</button>
                     </div>
                 </div>
@@ -281,6 +283,15 @@ function setupEventListeners() {
             openProductModal(productId);
         }
     });
+    // Add this inside your existing setupEventListeners function
+document.querySelectorAll('.cta-button').forEach(button => {
+    button.addEventListener('click', function() {
+        const productsSection = document.getElementById('products');
+        if (productsSection) {
+            productsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+});
 
     // Add to cart buttons
     document.addEventListener('click', function(e) {
@@ -296,6 +307,9 @@ function setupEventListeners() {
 
     // Profile button
     profileBtn.addEventListener('click', openProfileModal);
+
+    // Search button
+    searchBtn.addEventListener('click', openSearchModal);
 
     // Modal close buttons
     document.querySelectorAll('.close-modal').forEach(btn => {
@@ -353,12 +367,21 @@ function setupEventListeners() {
     // CTA buttons
     document.querySelectorAll('.cta-button').forEach(button => {
         button.addEventListener('click', function() {
-            document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
+            const productsSection = document.getElementById('products');
+            if (productsSection) {
+                productsSection.scrollIntoView({ behavior: 'smooth' });
+            }
         });
     });
 
     // Authentication forms
     setupAuthenticationListeners();
+
+    // Search functionality
+    setupSearchListeners();
+
+    // Contact form
+    setupContactForm();
 
     // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -427,7 +450,7 @@ function performSearch(query) {
             <div class="search-result-info">
                 <div class="search-result-name">${product.name}</div>
                 <div class="search-result-brand">${product.brand}</div>
-                <div class="search-result-price">$${product.price.toFixed(2)}</div>
+                <div class="search-result-price">₦${product.price.toFixed(2)}</div>
             </div>
         </div>
     `).join('');
@@ -442,19 +465,7 @@ function performSearch(query) {
     });
 }
 
-// Open search modal
-function openSearchModal() {
-    const searchModal = document.getElementById('search-modal');
-    searchModal.style.display = 'block';
-    document.body.style.overflow = 'hidden';
-    
-    // Focus on search input
-    setTimeout(() => {
-        document.getElementById('search-input').focus();
-    }, 100);
-}
 
-// Setup contact form
 function setupContactForm() {
     const contactForm = document.querySelector('.contact-form');
     
@@ -782,7 +793,7 @@ function updateOrderHistory() {
                 <span class="order-date">${new Date(order.date).toLocaleDateString()}</span>
             </div>
             <div class="order-details">
-                <span class="order-total">$${order.total.toFixed(2)}</span>
+                <span class="order-total">₦${order.total.toLocaleString()}</span>
                 <span class="order-status status-${order.status}">${order.status}</span>
             </div>
         </div>
@@ -799,6 +810,19 @@ function openProfileModal() {
     }
     profileModal.style.display = 'block';
     document.body.style.overflow = 'hidden';
+}
+
+
+// Open search modal
+function openSearchModal() {
+    const searchModal = document.getElementById('search-modal');
+    searchModal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+    
+    // Focus on search input
+    setTimeout(() => {
+        document.getElementById('search-input').focus();
+    }, 100);
 }
 
 // Add product to cart
@@ -822,13 +846,6 @@ function addToCart(productId, quantity = 1) {
     showNotification(`${product.name} added to cart!`);
 }
 
-// Remove item from cart
-function removeFromCart(productId) {
-    cart = cart.filter(item => item.id !== productId);
-    updateCartUI();
-    saveCart();
-}
-
 // Update item quantity in cart
 function updateQuantity(productId, newQuantity) {
     const item = cart.find(item => item.id === productId);
@@ -849,7 +866,7 @@ function updateCartUI() {
     const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
 
     cartCount.textContent = totalItems;
-    cartTotal.textContent = totalPrice.toFixed(2);
+    cartTotal.textContent = `₦${totalPrice.toLocaleString()}`;
 
     renderCartItems();
 }
@@ -866,7 +883,7 @@ function renderCartItems() {
             <img src="${item.image}" alt="${item.name}">
             <div class="cart-item-info">
                 <div class="cart-item-name">${item.name}</div>
-                <div class="cart-item-price">$${item.price.toFixed(2)}</div>
+                <div class="cart-item-price">₦${item.price.toLocaleString()}</div>
                 <div class="cart-item-quantity">
                     <button class="quantity-btn" onclick="updateQuantity(${item.id}, ${item.quantity - 1})">-</button>
                     <span>${item.quantity}</span>
@@ -877,38 +894,6 @@ function renderCartItems() {
         </div>
     `).join('');
 }
-
-// Search button
-const searchBtn = document.querySelector('.search-btn');
-const searchModal = document.getElementById('search-modal');
-searchBtn.addEventListener('click', openSearchModal);
-
-// Add search modal to closeModals function
-function closeModals() {
-    const cartModal = document.getElementById('cart-modal');
-    const productModal = document.getElementById('product-modal');
-    const profileModal = document.getElementById('profile-modal');
-    const searchModal = document.getElementById('search-modal');
-    
-    cartModal.style.display = 'none';
-    productModal.style.display = 'none';
-    profileModal.style.display = 'none';
-    searchModal.style.display = 'none';
-    document.body.style.overflow = 'auto';
-    
-    // Reset search
-    const searchInput = document.getElementById('search-input');
-    const searchResults = document.getElementById('search-results');
-    if (searchInput) searchInput.value = '';
-    if (searchResults) searchResults.innerHTML = '<p class="search-placeholder">Start typing to search for products...</p>';
-}
-
-// Call these functions in your DOMContentLoaded event
-document.addEventListener('DOMContentLoaded', function() {
-    // ... your existing code ...
-    setupSearchListeners();
-    setupContactForm();
-});
 
 // Open product modal
 function openProductModal(productId) {
@@ -989,9 +974,9 @@ function checkout() {
         localStorage.setItem('users', JSON.stringify(users));
     }
     localStorage.setItem('currentUser', JSON.stringify(currentUser));
-    
-    alert(`Thank you for your purchase, ${currentUser.name}! Total: $${total.toFixed(2)}\n\nOrder #${order.id} has been placed.\n\nThis is a demo - no actual payment was processed.`);
-    
+
+    alert(`Thank you for your purchase, ${currentUser.name}! Total: ₦${total.toFixed(2)}\n\nOrder #${order.id} has been placed.\n\nThis is a demo - no actual payment was processed.`);
+
     clearCart();
     closeModals();
 }
@@ -1064,6 +1049,12 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
         }
     });
 });
+
+document.querySelector(".menu-toggle").addEventListener("click", function () {
+  const navMenu = document.querySelector(".nav-menu");
+  navMenu.classList.toggle("active");
+});
+
 
 // Handle window resize
 window.addEventListener('resize', function() {
@@ -1188,3 +1179,39 @@ function setupEventListeners() {
         });
     });
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Add scroll functionality to CTA buttons
+  document.querySelectorAll(".cta-button").forEach(button => {
+    button.addEventListener("click", function () {
+      const action = button.getAttribute("data-action");
+      let targetId = "";
+
+      switch (action) {
+        case "shop-all":
+          targetId = "products";
+          break;
+        case "scroll-nivea":
+          targetId = "nivea-products";
+          break;
+        case "scroll-cerave":
+          targetId = "cerave-products";
+          break;
+        case "scroll-simple":
+          targetId = "simple-products";
+          break;
+        case "scroll-skinaqua":
+          targetId = "skinaqua-products";
+          break;
+      }
+
+      if (targetId) {
+        const target = document.getElementById(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    });
+  });
+});
