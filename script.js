@@ -27,10 +27,10 @@ const productsByBrand = {
         },
         {
            id: 4,
-            name: "ANTI DARK MARKS SERUM",
-            description: "Targets dark spots and evens skin tone for a clearer, brighter complexion. Fast-absorbing and gentle on skin.",
+            name: "NIVEA WHITENING EVENTONE CREAM",
+            description: "Whitening cream that brightens skin tone, reduces dark spots, and provides long-lasting hydration.",
             price: 8500,
-            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/5/1/0/7b18a679d3c743efa860b511f2d15cbe-web_1010x1180_transparent_png.webp?mw=259&hash=F0625B9ED2A15CA6BDDBD3F57C129C4E",
+            image: "https://m.media-amazon.com/images/S/aplus-media/sota/c1aecd4c-f2cc-4f4a-81b7-81073e711e8f.__CR0,0,300,300_PT0_SX300_V1___.png",
             brand: "nivea" 
         },
         {
@@ -38,25 +38,25 @@ const productsByBrand = {
             name: "NIVEA EVENTONE LIGHT MOISTURIZER",
             description: "Lightweight moisturizer that hydrates and brightens skin, reducing the appearance of dark spots.",
             price: 7100,
-            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/0/f/0/8756637050c84c5fbaa7fb003aa082e9-web_1010x1180_transparent_png.webp?mw=259&hash=160EF0CCB05D4E6959B853459FFAC623",
+            image: "https://precious-pharmacy.com/cdn/shop/products/lightmoisturising.jpg?v=1656072493",
             brand: "nivea" 
         },
         {
            id: 6,
-            name: "NIVEA PREFECT & RADIANT 3 IN 1 CLEANSER",
+            name: "NIVEA PERFECT & RADIANT 3 IN 1 CLEANSER",
             description: "Gentle cleanser that removes impurities, brightens skin, and prepares it for further skincare steps.",
             price: 8300,
-            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/b/2/f/62b2a8c34bbe4717a1c199c54f701a5d-screen.webp?mw=259&hash=F6510F22EA21575B12ABE5D30CA2F739",
+            image: "https://img.nivea.com/-/media/miscellaneous/media-center-items/3/c/7/c812b0cd835b41c7afd7792008511bc5-web_1010x1180_transparent_png.png",
             brand: "nivea" 
         }
     ],
     cerave: [
         {
             id: 7,
-            name: "CeraVe SMOOTHING CLEANSER",
-            description: "Exfoliating cleanser with salicylic acid to smooth rough skin and prevent breakouts. Non-irritating formula.",
+            name: "CeraVe RENEWING SA CLEANSER",
+            description: "Gentle exfoliating cleanser with salicylic acid to remove dead skin cells and unclog pores. Non-irritating formula.",
             price: 5600,
-            image: "https://www.cerave.co.uk/-/media/project/loreal/brand-sites/cerave/emea/uk/products/sa-smoothing-cleanser-236ml/sa-smoothing-cleanser-473ml-2-lg.jpg?rev=-1?w=130&hash=46E36ADEE5D13444F7BFD197CAE67A4A",
+            image: "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/2025/renewing-sa-cleanser/renewing-sa-cleanser_front.jpg?rev=09693b68b6834f7fb18f8fefca67c151&w=900&hash=C53BD9BC7935C5498211196EE04505C6",
             brand: "cerave"
         },
         {
@@ -69,10 +69,10 @@ const productsByBrand = {
         },
         {
             id: 9,
-            name: "CeraVe SKIN RENEWING NIGHT CREAM",
-            description: "Intensive night cream with peptides and niacinamide to restore skin overnight and improve texture.",
+            name: "CeraVe HYDRATING FACIAL CLEANSER",
+            description: "Hydrating facial cleanser with ceramides and hyaluronic acid to cleanse without stripping moisture. Suitable for normal to dry skin.",
             price: 5500,
-            image: "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/2025/packshots/700x875/night-cream-resize-700x875-v1.jpg?rev=c048d9fc3a9b411c8b0487a4db4884a6",
+            image: "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/cleansers/hydrating-facial-cleanser/photos/2025/hydrating-facial-cleanser_front.jpg?rev=0dbda3ea882842279d59341505ad4a93&w=900&hash=3D916FF592FE619D485851D27C485306",
             brand: "cerave"
         },
         {
@@ -88,7 +88,7 @@ const productsByBrand = {
             name: "CeraVe MOISTURIZING LOTION",
             description: "Lightweight lotion with essential ceramides and hyaluronic acid for all-day hydration. Suitable for face and body.",
             price: 7500,
-            image: "https://www.cerave.co.uk/-/media/project/loreal/brand-sites/cerave/emea/uk/products/moisturising-lotion/moisturising-lotion-236ml/moisturising-lotion-236ml-1-lg.jpg?rev=2e319b57342041fc887e84b06e0053bb?w=130&hash=09391AFBC686B65B0483FAB17255D899",
+            image: "https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//c/e/cerave-moisturizing-lotion-dry-to-very-dry-skin-236ml_1_2_1.jpg",
             brand: "cerave"
         },
         {
@@ -96,7 +96,7 @@ const productsByBrand = {
             name: "CeraVe FACE MOISTURISER SPF 30 ",
             description: "Daily moisturizer with SPF 30 to protect against UV damage while hydrating and restoring the skin barrier.",
             price: 3500,
-            image: "http://t0.gstatic.com/images?q=tbn:ANd9GcQcmWlljYNr30qtCy_TAtIAAJnKtrIsoZi_RyQa5cVXmK2XOT_Z",
+            image: "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/moisturizers/facial-moisturizers/ultra-light-moisturizing-gel/ultra-light-moisturizing-gel_front.jpg?rev=224096b1aaad41f68bc4b46f39af988c&w=900&hash=507023F84C78F3A6572F17FB03222CBD",
             brand: "cerave"
         }
     ],
@@ -114,7 +114,7 @@ const productsByBrand = {
             name: "SIMPLE REPLENISHING MOISTURIZER",
             description: "Deeply hydrates and nourishes skin for 12 hours. Kind to sensitive skin with no artificial perfumes or colors.",
             price: 6000,
-            image: "https://assets.unileversolutions.com/v1/55673823.png?im=Resize,width=351,height=351",
+            image: "https://m.media-amazon.com/images/I/51FqsIc84LL._UF1000,1000_QL80_.jpg",
             brand: "simple"
         },
         {
@@ -122,7 +122,7 @@ const productsByBrand = {
             name: "SIMPLE FACIAL TONER",
             description: "Refreshes and tones skin while helping to balance pH. Alcohol-free and gentle on sensitive skin.",
             price: 5200,
-            image: "https://assets.unileversolutions.com/v1/76574235.png?im=Resize,width=351,height=351",
+            image: "https://www.theskinhookupng.com/wp-content/uploads/2023/03/soothing-facial-toner-200ml.jpeg",
             brand: "simple"
         },
         {
@@ -130,7 +130,7 @@ const productsByBrand = {
             name: "SIMPLE FACIAL WASH",
             description: "Cleanses thoroughly without drying. Perfect for removing dirt and oil while keeping skin soft and smooth.",
             price: 6800,
-            image: "https://assets.unileversolutions.com/v1/56499587.png?im=Resize,width=351,height=351",
+            image: "https://www.trendify.pk/cdn/shop/products/4c0926c1a90065eee7e8e494d71f6cdb-1_a2822a85-79c7-4431-9d1b-e250aca33979.jpg?v=1660900357",
             brand: "simple"
         },
     ],
@@ -217,7 +217,7 @@ function renderProductsByBrand() {
                     <div class="product-info">
                         <h3 class="product-name">${product.name}</h3>
                         <p class="product-description">${product.description}</p>
-                        <div class="product-price">₦${product.price.toFixed(2)}</div>
+                        <div class="product-price">₦${product.price.toLocaleString()}</div>
                         <button class="add-to-cart" data-product-id="${product.id}">Add to Cart</button>
                     </div>
                 </div>
@@ -331,31 +331,6 @@ document.querySelectorAll('.cta-button').forEach(button => {
     // Checkout button
     document.getElementById('checkout').addEventListener('click', checkout);
 
-    // Product modal quantity controls
-    document.querySelectorAll('.quantity-btn').forEach(btn => {
-        btn.addEventListener('click', function() {
-            const action = this.dataset.action;
-            const quantityInput = document.getElementById('quantity');
-            let quantity = parseInt(quantityInput.value);
-            
-            if (action === 'increase' && quantity < 10) {
-                quantity++;
-            } else if (action === 'decrease' && quantity > 1) {
-                quantity--;
-            }
-            
-            quantityInput.value = quantity;
-        });
-    });
-
-    // Add to cart from modal
-    document.querySelector('.add-to-cart-modal').addEventListener('click', function() {
-        const productId = parseInt(this.dataset.productId);
-        const quantity = parseInt(document.getElementById('quantity').value);
-        addToCart(productId, quantity);
-        closeModals();
-    });
-
     // Newsletter form
     document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
         e.preventDefault();
@@ -450,7 +425,7 @@ function performSearch(query) {
             <div class="search-result-info">
                 <div class="search-result-name">${product.name}</div>
                 <div class="search-result-brand">${product.brand}</div>
-                <div class="search-result-price">₦${product.price.toFixed(2)}</div>
+                <div class="search-result-price">₦${product.price.toLocaleString()}</div>
             </div>
         </div>
     `).join('');
@@ -483,6 +458,13 @@ function setupContactForm() {
         // Reset form
         contactForm.reset();
     });
+}
+
+function removeFromCart(productId) {
+    cart = cart.filter(item => item.id !== productId);
+    updateCartUI();
+    saveCart();
+    showNotification('Item removed from cart');
 }
 
 
@@ -860,6 +842,7 @@ function updateQuantity(productId, newQuantity) {
     }
 }
 
+
 // Update cart UI
 function updateCartUI() {
     const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
@@ -903,9 +886,34 @@ function openProductModal(productId) {
     document.getElementById('modal-product-name').textContent = product.name;
     document.getElementById('modal-product-image').src = product.image;
     document.getElementById('modal-product-description').textContent = product.description;
-    document.getElementById('modal-product-price').textContent = product.price.toFixed(2);
+    document.getElementById('modal-product-price').textContent = `₦${product.price.toLocaleString()}`;
     document.getElementById('quantity').value = 1;
     document.querySelector('.add-to-cart-modal').dataset.productId = productId;
+
+    // Attach quantity button listeners every time modal opens
+    document.querySelectorAll('.quantity-btn').forEach(btn => {
+        btn.onclick = function() {
+            const action = this.dataset.action;
+            const quantityInput = document.getElementById('quantity');
+            let quantity = parseInt(quantityInput.value, 10);
+
+            if (action === 'increase' && quantity < 10) {
+                quantity++;
+            } else if (action === 'decrease' && quantity > 1) {
+                quantity--;
+            }
+
+            quantityInput.value = quantity;
+        };
+    });
+
+    // Attach Add to Cart listener every time modal opens
+    document.querySelector('.add-to-cart-modal').onclick = function() {
+        const productId = parseInt(this.dataset.productId);
+        const quantity = parseInt(document.getElementById('quantity').value, 10);
+        addToCart(productId, quantity);
+        closeModals();
+    };
 
     productModal.style.display = 'block';
     document.body.style.overflow = 'hidden';
@@ -975,7 +983,7 @@ function checkout() {
     }
     localStorage.setItem('currentUser', JSON.stringify(currentUser));
 
-    alert(`Thank you for your purchase, ${currentUser.name}! Total: ₦${total.toFixed(2)}\n\nOrder #${order.id} has been placed.\n\nThis is a demo - no actual payment was processed.`);
+    alert(`Thank you for your purchase, ${currentUser.name}! Total: ₦${total.toLocaleString()}\n\nOrder #${order.id} has been placed.\n\nThis is a demo - no actual payment was processed.`);
 
     clearCart();
     closeModals();
